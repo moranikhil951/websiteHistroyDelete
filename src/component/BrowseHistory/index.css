@@ -1,0 +1,122 @@
+@media screen and (max-width: 767px) {
+  .container-history {
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+  }
+
+  .nav-container {
+    background-color: #3367d6;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 10px;
+  }
+
+  .search-and-input-con {
+    display: flex;
+    align-self: center;
+    margin-left: 70px;
+  }
+  .app-logo {
+    height: 20px;
+    margin-left: 16px;
+  }
+  .search-icon {
+    background-color: #2850a7;
+    padding: 4px;
+  }
+  .searchInput {
+    background-color: #2850a7;
+    outline: none;
+    border: 0;
+    margin-left: 2px;
+    width: 35vw;
+    color: #ffffff;
+  }
+
+  .history-mini-con {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 0;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  body {
+    margin-right: 0;
+  }
+  .delete-icon {
+    height: 20px;
+  }
+  .error {
+    text-align: center;
+    margin: 20px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container-history {
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+  }
+
+  .nav-container {
+    background-color: #3367d6;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 20px;
+  }
+
+  .search-and-input-con {
+    display: flex;
+    align-self: center;
+    margin-left: 200px;
+  }
+  .app-logo {
+    height: 30px;
+    margin-left: 20px;
+  }
+  .search-icon {
+    background-color: #2850a7;
+    padding: 10px;
+  }
+  .searchInput {
+    background-color: #2850a7;
+    outline: none;
+    border: 0;
+    margin-left: 2px;
+    width: 40vw;
+    color: #ffffff;
+  }
+
+  .history-mini-con {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 0;
+    margin: 60px;
+    border-radius: 10px;
+  }
+  body {
+    margin-right: 0;
+  }
+  .error {
+    text-align: center;
+    margin: 40px;
+    margin-right: 80px;
+  }
+  .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-border: 0px;
+  }
+  .delete-icon {
+    height: 20px;
+  }
+}

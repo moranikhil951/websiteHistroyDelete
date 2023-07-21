@@ -1,0 +1,119 @@
+@media screen and (max-width: 767px) {
+  .listed-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .item-flexing {
+    display: flex;
+    flex-direction: column;
+  }
+  .spacing-con {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+  }
+  .delete-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80px;
+  }
+  .margin {
+    font-size: 10px;
+    text-align: left;
+  }
+  .logo-url {
+    margin-right: 17px;
+    height: 25px;
+    width: 30px;
+  }
+  .domain-url {
+    color: #64748b;
+    font-size: 11px;
+    margin-left: 7px;
+    text-align: left;
+    width: 20px;
+  }
+  .title {
+    font-size: 12px;
+    font-family: roboto;
+    text-align: left;
+  }
+  .stucture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-delete {
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .listed-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .logo-url {
+  }
+  .item-flexing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .spacing-con {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+  }
+  .delete-con {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+  .margin {
+    font-size: 15px;
+    width: 90px;
+  }
+  .logo-url {
+    margin-right: 30px;
+    height: 30px;
+  }
+  .domain-url {
+    color: #64748b;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .title {
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .stucture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-delete {
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer;
+  }
+  .error {
+    border: 0;
+  }
+}
